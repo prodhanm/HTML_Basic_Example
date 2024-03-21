@@ -4,3 +4,42 @@ body {
     background: #002533;
     color: white;
 }
+
+.greeting {
+    text-align: center;
+    color: blueviolet;
+}
+
+h1>p {
+    color: greenyellow;
+}
+
+#lorem {
+    color: yellow;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Poiret One', cursive;
+
+}
+
+img {
+    float: left;
+}
+
+footer {
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bolder;
+
+}
+
+.text {
+    /* I need to move text to the right to give adequate space between the text and logo */
+    margin-left: 150px;
+}
