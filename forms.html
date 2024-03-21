@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="index.css">
     <title>Form Sample</title>
 </head>
 <body>
     Fill out the form below:
 
     <form action="">
-        <p>First Name: <input type="text" name="firstname"></p>
-        <p>Last Name: <input type="text" name="lastname"></p>
-        <p>Email: <input type="email" name="email" required></p>
-        <!-- required keyword is an attr that creates a message 
-        on the submit button, requiring a field such as an email 
-        address to be submitted as a requirment. No exceptions 
-        can be made there.-->
-        <p>Password: <input type="password" name="password" min="8"></p>
-        <p>Birthdate: <input type="date" name="birthdate" required></p>
+        <div class="crispy">
+            <p>First Name: <input type="text" name="firstname"></p>
+            <p>Last Name: <input type="text" name="lastname"></p>
+            <p>Email: <input type="email" name="email" required></p>
+            <!-- required keyword is an attr that creates a message 
+                on the submit button, requiring a field such as an email 
+                address to be submitted as a requirment. No exceptions 
+                can be made there.-->
+            <p>Password: <input type="password" name="password" min="8"></p>
+            <p>Birthdate: <input type="date" name="birthdate" required></p>
+        </div>
         <p>Gender:<br>
             <input type="radio" name="gender" value="Male">male <br>
             <input type="radio" name="gender" value="Female">female <br>
@@ -64,5 +67,6 @@
         <h1><span class="insect">Locusts</span> <span class="insect">& Bees</span></h1>
         
     </form>
+    <a href="index.html">FOOOOD!</a>
 </body>
 </html>
