@@ -43,3 +43,55 @@ footer {
     /* I need to move text to the right to give adequate space between the text and logo */
     margin-left: 115px;
 }
+
+.box {
+    /* I need to move the box to the right to give adequate space between the text and logo */
+    margin-left: 115px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.boxmodel {
+    margin-left: 115px;
+    margin-top: 20px; 
+    padding: 5px 20px 5px 20px;
+    border: 10px solid black;  
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#p2 {
+   font-size : 20px;
+}
+
+span {
+    color: black;
+    font-size: 2em;
+}
+
+/* the '2em' on span indicates that the font size of the text
+inside the span tag will be twice the size of the text outside 
+the span tag i.e. p2 */
+
+#p3 {
+    font-size: 2em;
+}
+
+/* by itself, without specifying the font size in 'px', the 'em'
+unit will be relative to the font size of the parent element */
+
+/* can also use 'rem' which is relative to the font size of 
+the root element aka body tag */
+
+.list {
+    font-family: 'Noto Sans JP', sans-serif;
+}

@@ -1,3 +1,4 @@
+/*
 .insect {
     color: blue;
 }
@@ -13,3 +14,5 @@
     clear: both;
     margin-left: 10px;
 }
+*/
+.insect{color:blue}.crispy{width:500px;clear:both}.crispy input{width:100%;margin-bottom:10px;clear:both;margin-left:10px}
